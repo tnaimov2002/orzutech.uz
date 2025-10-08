@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+
+<html lang="uz">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ORZUTECH - Orzuyingizdagi texnika</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<link href="css/footer.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet"/>
+</head>
+<body>
+<div class="background">
+<video autoplay="" id="bgVideo" loop="" muted="" playsinline="">
+<source src="media/orzutech fon video.mp4" type="video/mp4"/>
+    Sizning brauzeringiz video formatini qo‘llab-quvvatlamaydi.
+  </video>
+</div>
+<header class="navbar">
+<div class="container nav-content">
+<div class="logo">
+<img alt="Orzutech logo" class="logo-img" src="images/Orzutech_logo\orange.png"/>
+</div>
+
+<!-- Hamburger Menu Button -->
+<div class="hamburger" id="hamburger">
+  <div class="hamburger-line"></div>
+  <div class="hamburger-line"></div>
+  <div class="hamburger-line"></div>
+</div>
+
+<!-- Desktop Navigation -->
+<div class="nav-menu">
+  <nav>
+    <button class="cta" onclick="location.href='#home'">
+      <span>Bosh sahifa</span>
+      <svg width="15px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+    <button class="cta" onclick="location.href='about.html'">
+      <span>Biz haqimizda</span>
+      <svg width="15px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+    <button class="cta" onclick="location.href='services.html'">
+      <span>Xizmatlarimiz</span>
+      <svg width="15px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+    <button class="cta" onclick="location.href='contact.html'">
+      <span>Aloqa</span>
+      <svg width="15px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+  </nav>
+
+  <div class="header-right">
+    <a class="call-center" href="tel:+9989652000002">+998 65 200 00 02</a>
+    <a class="social-link" href="orzutech-taplink-logo\index.html" target="_blank" title="Telegram">
+      <svg fill="none" height="23" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.512 15.51l-.377 3.503c.541 0 .775-.232 1.06-.511l2.544-2.417 5.276 3.82c.967.532 1.658.253 1.905-.898l3.454-16.129c.352-1.63-.624-2.263-1.652-1.873l-20.308 7.83c-1.385.544-1.369 1.326-.236 1.677l5.185 1.618 12.055-7.594c.568-.366 1.084-.166.661.2L9.512 15.509z" fill="#1d95e0"></path>
+      </svg>
+      <span class="social-text">Telegram</span>
+    </a>
+    <a class="social-link" href="orzutech-taplink-logo\index.html" target="_blank" title="Instagram">
+      <svg fill="none" height="23" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+        <rect height="18" rx="5" stroke="#C13584" stroke-width="2" width="18" x="3" y="3"></rect>
+        <circle cx="12" cy="12" r="4" stroke="#C13584" stroke-width="2"></circle>
+        <circle cx="17.5" cy="6.5" fill="#C13584" r="1"></circle>
+      </svg>
+      <span class="social-text">Instagram</span>
+    </a>
+  </div>
+</div>
+
+<!-- Mobile Navigation Menu -->
+<div class="nav-menu mobile" id="mobile-menu">
+  <nav>
+    <button class="cta" onclick="location.href='#home'">
+      <span>Bosh sahifa</span>
+      <svg width="15px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+    <button class="cta" onclick="location.href='about.html'">
+      <span>Biz haqimizda</span>
+      <svg width="15px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+    <button class="cta" onclick="location.href='services.html'">
+      <span>Xizmatlarimiz</span>
+      <svg width="15px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+    <button class="cta" onclick="location.href='contact.html'">
+      <span>Aloqa</span>
+      <svg width="15px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </button>
+  </nav>
+
+  <div class="header-right">
+    <a class="call-center" href="tel:+9989652000002">+998 65 200 00 02</a>
+    <a class="social-link" href="orzutech-taplink-logo\index.html" target="_blank" title="Telegram">
+      <svg fill="none" height="23" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+        <path d="M9.512 15.51l-.377 3.503c.541 0 .775-.232 1.06-.511l2.544-2.417 5.276 3.82c.967.532 1.658.253 1.905-.898l3.454-16.129c.352-1.63-.624-2.263-1.652-1.873l-20.308 7.83c-1.385.544-1.369 1.326-.236 1.677l5.185 1.618 12.055-7.594c.568-.366 1.084-.166.661.2L9.512 15.509z" fill="#1d95e0"></path>
+      </svg>
+      <span class="social-text">Telegram</span>
+    </a>
+    <a class="social-link" href="orzutech-taplink-logo\index.html" target="_blank" title="Instagram">
+      <svg fill="none" height="23" viewbox="0 0 24 24" width="23" xmlns="http://www.w3.org/2000/svg">
+        <rect height="18" rx="5" stroke="#C13584" stroke-width="2" width="18" x="3" y="3"></rect>
+        <circle cx="12" cy="12" r="4" stroke="#C13584" stroke-width="2"></circle>
+        <circle cx="17.5" cy="6.5" fill="#C13584" r="1"></circle>
+      </svg>
+      <span class="social-text">Instagram</span>
+    </a>
+  </div>
+</div>
+</div>
+</header>
+<section class="hero" id="home">
+<div class="container hero-content">
+<h1>ORZUTECH — Orzuyingizdagi texnika</h1>
+<p>Bizda – zamonaviy gadjetlar, yuqori sifat va tezkor xizmat.</p>
+<a class="main-btn" href="https://b2b.moysklad.ru/public/fewG2avz56UK/catalog?fbclid=PAZXh0bgNhZW0CMTEAAaeLHMiqVBGzpG8FOLfYoYxJSg7QTG6PqRrHGb1mQICYLPyV2KYBPqxCP_29Pg_aem_kLh4bxBERF5Q4TBwun96XA">Xaridlar sari olg'a!</a>
+</div>
+</section>
+
+<section class="section glass" id="about">
+  <div class="container">
+    <h2>Biz haqimizda</h2>
+    <div class="about-grid">
+      <div class="about-card glass">
+        <div class="about-icon">
+          <img src="images/30 000 + mijozlar.png" alt="30 000+ mijozlar">
+        </div>
+        <h3>30 000+</h3>
+        <p>mijozlar</p>
+      </div>
+      <div class="about-card glass">
+        <div class="about-icon">
+          <img src="images/13 yillik tajriba.png" alt="17 yillik tajriba">
+        </div>
+        <h3>17 yillik</h3>
+        <p>tajriba</p>
+      </div>
+      <div class="about-card glass">
+        <div class="about-icon">
+          <img src="images/5 ta do'kon.png" alt="5 ta do‘kon">
+        </div>
+        <h3>5 ta</h3>
+        <p>do‘kon</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="delivery-section glass">
+<div class="container delivery-flex">
+<div class="delivery-info">
+<div class="delivery-title">
+<span class="delivery-bg">Yetkazib berish</span>
+<h2>24 soat ichida 1 000 000 so‘mdan boshlab <span class="orange">BEPUL YETKAZIB BERISH</span></h2>
+</div>
+<div class="delivery-text">
+<p>
+           Agarda xaridning umumiy summasi <b>1 000 000 so‘m</b> va undan yuqori bo‘lsa, yetkazib berish <b>mutlaqo bepul</b> amalga oshiriladi.<br/>
+            Yetkazib berish kompaniya hisobidan amalga oshiriladi.
+          </p>
+</div>
+</div>
+<div class="delivery-img">
+<img alt="Orzutech delivery" src="images/yetkazib-berish.png"/>
+</div>
+</div>
+</section>
+
+<section class="section glass testimonials-section">
+<div class="container">
+<h2>Mijozlar fikri</h2>
+<div class="testimonials-grid">
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<span class="testimonial-avatar">🧑‍💼</span>
+<div>
+<span class="testimonial-name">Mirzo Vasiev</span>
+<span class="testimonial-stars">★★★★★</span>
+</div>
+</div>
+<p class="testimonial-text">
+          "Очень лояльный цену от прямых поставщиков, хороший выбор комплектующих и техники в отношении цена качества. Спасибо большое основателю за хороший подбор команд продавцов."
+        </p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<span class="testimonial-avatar">👩‍💻</span>
+<div>
+<span class="testimonial-name">Никита Абдуллаев</span>
+<span class="testimonial-stars">★★★★★</span>
+</div>
+</div>
+<p class="testimonial-text">
+          "Хороший магазин, большое выбор, хороший и отзывчивый персонал, всегда найдете что-то по своему вкусу."
+        </p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<span class="testimonial-avatar">🧔</span>
+<div>
+<span class="testimonial-name">Fazliddin Sadulloyev</span>
+<span class="testimonial-stars">★★★★☆</span>
+</div>
+</div>
+<p class="testimonial-text">
+          "Это самый лучший магазин компьютеров в городе"
+        </p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<span class="testimonial-avatar">👨‍🔧</span>
+<div>
+<span class="testimonial-name">Mister Joker</span>
+<span class="testimonial-stars">★★★★★</span>
+</div>
+</div>
+<p class="testimonial-text">
+          "Низкие цены, большие выборы, хорошие обслуживание советую всем лучший магазин техники в городе"
+        </p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<span class="testimonial-avatar">👩‍🏫</span>
+<div>
+<span class="testimonial-name">Феруза Артыкова</span>
+<span class="testimonial-stars">★★★★★</span>
+</div>
+</div>
+<p class="testimonial-text">
+          "Отличный магазин оргтехники, персонал отзывчивый, вежливый, все чётко рекомендуют👍👍👍👍👍"
+        </p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<span class="testimonial-avatar">🧑‍🎓</span>
+<div>
+<span class="testimonial-name">nodir rakhmanov</span>
+<span class="testimonial-stars">★★★★☆</span>
+</div>
+</div>
+<p class="testimonial-text">
+          "Ремонтировал принтер, сделали быстро и качественно!"
+        </p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<span class="testimonial-avatar">👨‍💼</span>
+<div>
+<span class="testimonial-name">Bekhruz Khodjaev</span>
+<span class="testimonial-stars">★★★★★</span>
+</div>
+</div>
+<p class="testimonial-text">
+          "Отличный магазин для покупки любых типов компьютера и ноутбук с большим ассортиментом аксессуаров с низким ценами"
+        </p>
+</div>
+
+<div class="testimonial-card">
+<div class="testimonial-header">
+<span class="testimonial-avatar">👩‍🎨</span>
+<div>
+<span class="testimonial-name">Sobir A</span>
+<span class="testimonial-stars">★★★★★</span>
+</div>
+</div>
+<p class="testimonial-text">
+          "Можно найти любую технику связанную с компьютером"
+        </p>
+</div>
+</div></div></section>
+</div>
+</div>
+</section>
+
+
+<section class="section glass trusted-companies-section">
+  <div class="container">
+    <h2>Biz bilan hamkor kompaniyalar</h2>
+    <div class="trusted-marquee">
+      <div class="trusted-track">
+        <div class="trusted-item"><img src="./img/brend logos/7tech.png" alt="7tech"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Artel.png" alt="Error processing Artel"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Avtech.png" alt="Avtech"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Canon.png" alt="Canon"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Dahua.png" alt="Dahua"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Epson.png" alt="Error processing Epson"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Ezviz.png" alt="Error processing Ezviz"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/HI-Look.png" alt="HI-Look"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Hikvision.png" alt="Hikvision"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Hofman.png" alt="Hoffman"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Honor.png" alt="Error processing Honor"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Huawei.png" alt="Error processing Huawei"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Infinix.png" alt="Error processing Infinix"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/LG.png" alt="Error processing LG"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Novey.png" alt="Error processing Novey"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Premier.png" alt="Premier"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Redmi.jpg" alt="Error processing Redmi"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Samsung.png" alt="Error processing Samsung"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/Techno.png" alt="Techno"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/UPG.png" alt="Error processing UPG"/></div>
+        <div class="trusted-item"><img src="./img/brend logos/VIVO.png" alt="VIVO"/></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section glass locations-section">
+<div class="container">
+<h2>Bizning manzilimiz</h2>
+<div class="locations-list custom-locations-grid">
+<div class="location-card">
+<h3>Orzutech computers</h3>
+<p>Buxoro shahar, M.Iqbol ko‘chasi 64</p>
+<iframe allowfullscreen="" loading="lazy" src="https://www.google.com/maps?q=39.762729, 64.430062&amp;z=17&amp;output=embed"></iframe>
+</div>
+<div class="location-card">
+<h3>Orzutech electronics</h3>
+<p>Buxoro shahar, M.Iqbol ko‘chasi 64</p>
+<iframe allowfullscreen="" loading="lazy" src="https://www.google.com/maps?q=39.762706, 64.429564&amp;z=17&amp;output=embed"></iframe>
+</div>
+<div class="location-card">
+<h3>Orzutech security</h3>
+<p>Buxoro shahar, Mustaqillik ko‘chasi 17</p>
+<iframe allowfullscreen="" loading="lazy" src="https://www.google.com/maps?q=39.761827, 64.431027&amp;z=17&amp;output=embed"></iframe>
+</div>
+<div class="location-card">
+<h3>Orzutech express</h3>
+<p>Buxoro shahar, Mustaqillik ko‘chasi 19</p>
+<iframe allowfullscreen="" loading="lazy" src="https://www.google.com/maps?q=39.763466, 64.430333&amp;z=17&amp;output=embed"></iframe>
+</div>
+<div class="location-card">
+<h3>Orzutech mobile</h3>
+<p>Buxoro shahar, Mustaqillik ko‘chasi 17</p>
+<iframe allowfullscreen="" loading="lazy" src="https://www.google.com/maps?q=39.762146, 64.430942&amp;z=17&amp;output=embed"></iframe>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Modern Footer Section -->
+<footer class="modern-footer glass">
+  <div class="container">
+    <div class="footer-grid">
+      
+      <!-- Feedback Section -->
+      <div class="footer-section feedback-section">
+        <h3>Fikr-mulohaza</h3>
+        <form class="feedback-form" id="feedbackForm" action="contact-handler.php" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" id="firstName" name="firstName" placeholder="Ismingiz" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="lastName" name="lastName" placeholder="Familiyangiz" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Email manzilingiz" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Xabaringiz" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="send-btn" id="submitBtn">
+            <span class="btn-text">Yuborish</span>
+            <span class="btn-loading" style="display: none;">
+              <svg class="loading-spinner" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" stroke-dasharray="31.416" stroke-dashoffset="31.416">
+                  <animate attributeName="stroke-dasharray" dur="2s" values="0 31.416;15.708 15.708;0 31.416" repeatCount="indefinite"/>
+                  <animate attributeName="stroke-dashoffset" dur="2s" values="0;-15.708;-31.416" repeatCount="indefinite"/>
+                </circle>
+              </svg>
+              Yuborilmoqda...
+            </span>
+            <svg class="send-icon" width="16" height="16" viewBox="0 0 24 24" fill="none">
+              <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </form>
+        <div id="formMessage" class="form-message" style="display: none;"></div>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="footer-section contact-section">
+        <h3>Aloqa ma'lumotlari</h3>
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M22 16.92V19.92C22 20.52 21.52 21 20.92 21C9.4 21 0 11.6 0 0.08C0 -0.52 0.48 -1 1.08 -1H4.08C4.68 -1 5.16 -0.52 5.16 0.08V3.08" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <a href="tel:++998652000002">+998 65 200 00 02</a>
+        </div>
+        <div class="contact-item">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <a href="mailto:info@orzutech.uz">info@orzutech.uz</a>
+        </div>
+        
+        <!-- Social Media Links -->
+        <div class="social-media">
+          <h4>Ijtimoiy tarmoqlar</h4>
+          <div class="social-links">
+            <a href="orzutech-taplink-logo\index.html" target="_blank" class="social-link telegram">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M9.512 15.51l-.377 3.503c.541 0 .775-.232 1.06-.511l2.544-2.417 5.276 3.82c.967.532 1.658.253 1.905-.898l3.454-16.129c.352-1.63-.624-2.263-1.652-1.873l-20.308 7.83c-1.385.544-1.369 1.326-.236 1.677l5.185 1.618 12.055-7.594c.568-.366 1.084-.166.661.2L9.512 15.509z" fill="currentColor"/>
+              </svg>
+              <span>Telegram</span>
+            </a>
+            <a href="orzutech-taplink-logo\index.html" target="_blank" class="social-link instagram">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2"/>
+              </svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search Section -->
+      <div class="footer-section search-section">
+        <h3>Saytda qidirish</h3>
+        <div class="search-container">
+          <form class="search-form" id="siteSearchForm">
+            <div class="search-input-group">
+              <input type="text" id="searchInput" placeholder="Saytda qidiring..." required>
+              <button type="submit" class="search-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                  <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2"/>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div class="footer-logo-section">
+          <img src="images/Orzutech_logo/orange.png" alt="Orzutech Logo" class="footer-logo-img">
+          <span class="footer-brand">Orzutech</span>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2025 Orzutech. Barcha huquqlar himoyalangan.</p>
+          <p class="copyright-protected">Mualliflik huquqi bilan himoyalangan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+// Hamburger menu toggle functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', function() {
+        hamburger.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a menu item
+    const menuItems = mobileMenu.querySelectorAll('.cta');
+    menuItems.forEach(item => {
+        item.addEventListener('click', function() {
+            hamburger.classList.remove('active');
+            mobileMenu.classList.remove('active');
+        });
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!hamburger.contains(event.target) && !mobileMenu.contains(event.target)) {
+            hamburger.classList.remove('active');
+            mobileMenu.classList.remove('active');
+        }
+    });
+});
+
+// Feedback form submission with server-side email functionality
+document.getElementById('feedbackForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const submitBtn = document.getElementById('submitBtn');
+    const btnText = submitBtn.querySelector('.btn-text');
+    const btnLoading = submitBtn.querySelector('.btn-loading');
+    const sendIcon = submitBtn.querySelector('.send-icon');
+    const messageDiv = document.getElementById('formMessage');
+    
+    // Get form data
+    const formData = new FormData(this);
+    const firstName = formData.get('firstName');
+    const lastName = formData.get('lastName');
+    const email = formData.get('email');
+    const message = formData.get('message');
+    
+    // Show loading state
+    submitBtn.disabled = true;
+    btnText.style.display = 'none';
+    btnLoading.style.display = 'flex';
+    sendIcon.style.display = 'none';
+    messageDiv.style.display = 'none';
+    
+    try {
+        // Send data to server
+        const response = await fetch('contact-handler.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                firstName: firstName,
+                lastName: lastName,
+                email: email,
+                message: message
+            })
+        });
+        
+        const result = await response.json();
+        
+        // Show message
+        messageDiv.style.display = 'block';
+        messageDiv.className = 'form-message ' + (result.success ? 'success' : 'error');
+        messageDiv.textContent = result.message;
+        
+        // Reset form if successful
+        if (result.success) {
+            this.reset();
+        }
+        
+    } catch (error) {
+        console.error('Error:', error);
+        messageDiv.style.display = 'block';
+        messageDiv.className = 'form-message error';
+        messageDiv.textContent = 'Xabar yuborishda xatolik yuz berdi. Iltimos, qaytadan urinib ko\'ring.';
+    } finally {
+        // Reset button state
+        submitBtn.disabled = false;
+        btnText.style.display = 'inline';
+        btnLoading.style.display = 'none';
+        sendIcon.style.display = 'inline';
+    }
+});
+
+// Site search functionality
+document.getElementById('siteSearchForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const searchTerm = document.getElementById('searchInput').value.trim();
+    if (searchTerm) {
+        // Simple search implementation - highlights matching text
+        const searchResults = searchInPage(searchTerm);
+        if (searchResults > 0) {
+            alert(`"${searchTerm}" uchun ${searchResults} ta natija topildi. Sahifada belgilangan matnlarni ko'ring.`);
+        } else {
+            alert(`"${searchTerm}" uchun hech qanday natija topilmadi.`);
+        }
+    }
+});
+
+function searchInPage(searchTerm) {
+    // Remove previous highlights
+    removeHighlights();
+    
+    const walker = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_TEXT,
+        null,
+        false
+    );
+    
+    const textNodes = [];
+    let node;
+    
+    while (node = walker.nextNode()) {
+        textNodes.push(node);
+    }
+    
+    let matchCount = 0;
+    const regex = new RegExp(searchTerm, 'gi');
+    
+    textNodes.forEach(textNode => {
+        if (textNode.textContent.match(regex)) {
+            const parent = textNode.parentNode;
+            const highlightedHTML = textNode.textContent.replace(regex, '<mark class="search-highlight">$&</mark>');
+            
+            const wrapper = document.createElement('span');
+            wrapper.innerHTML = highlightedHTML;
+            
+            parent.replaceChild(wrapper, textNode);
+            matchCount += (textNode.textContent.match(regex) || []).length;
+        }
+    });
+    
+    return matchCount;
+}
+
+function removeHighlights() {
+    const highlights = document.querySelectorAll('.search-highlight');
+    highlights.forEach(highlight => {
+        const parent = highlight.parentNode;
+        parent.replaceChild(document.createTextNode(highlight.textContent), highlight);
+        parent.normalize();
+    });
+}
+</script>
+
+</body>
+</html>
